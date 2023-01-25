@@ -91,19 +91,13 @@ nav {
                @keyframes flipNavItem {
                   0% {
                      transform: rotateX(90deg);
-                     -webkit-transform: rotateX(90deg);
-                     -moz-transform: rotateX(90deg);
-                     -ms-transform: rotateX(90deg);
-                     -o-transform: rotateX(90deg);
+                    
                   }
 
                   100% {
                      transform: rotateX(0deg);
                      opacity: 1;
-                     -webkit-transform: rotateX(0deg);
-                     -moz-transform: rotateX(0deg);
-                     -ms-transform: rotateX(0deg);
-                     -o-transform: rotateX(0deg);
+                    
                   }
                }
 
@@ -114,10 +108,7 @@ nav {
                   padding: 1.5rem 2rem;
                   border-radius: 0;
                   background: linear-gradient($primary-color-variant, darken($primary-color-variant, 12%));
-                  -webkit-border-radius: 0;
-                  -moz-border-radius: 0;
-                  -ms-border-radius: 0;
-                  -o-border-radius: 0;
+                 
 
                   &.btn {
                      background: $secondary-color;

@@ -7,14 +7,7 @@
    color: $textColor;
    cursor: pointer;
    transition: all 400ms ease;
-   -webkit-border-radius: 0.4rem;
-   -moz-border-radius: 0.4rem;
-   -ms-border-radius: 0.4rem;
-   -o-border-radius: 0.4rem;
-   -webkit-transition: all 400ms ease;
-   -moz-transition: all 400ms ease;
-   -ms-transition: all 400ms ease;
-   -o-transition: all 400ms ease;
+   
 
    &:hover {
       background-color: lighten($backgroundColor, 8%);
