@@ -1,0 +1,21 @@
+/* medium devices */
+@media screen and (max-width:1024px) {
+   .container {
+      width: $container-md;
+   }
+
+   section {
+      &>p {
+         width: 55%;
+      }
+   }
+}
+
+/* small devices */
+@media screen and (max-width:600px) {
+   section {
+      &>p {
+         width: $container-md;
+      }
+   }
+}

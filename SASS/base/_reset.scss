@@ -1,0 +1,30 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: 0;
+   outline: 0;
+   list-style: none;
+   text-decoration: none;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: "Monserrat", sans-serif;
+   line-height: 1.5;
+   color:$dark-color;
+   background: rgba($primary-color-variant, 0.1);
+   user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+   line-height: 1.2;
+}

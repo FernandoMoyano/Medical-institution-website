@@ -1,0 +1,130 @@
+nav {
+   width: 100vw;
+   height: 5rem;
+   position: fixed;
+   z-index: 10;
+   display: grid;
+   box-shadow: 0 1rem 1rem rgba($black-color, 0.1);
+   place-items: center;
+   @include gradientBackground;
+
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+
+   ul {
+      display: flex;
+      gap: 3rem;
+      align-items: center;
+   }
+
+   /* only neded in mediun and small devices */
+   button {
+      display: none;
+   }
+
+   a {
+      color: $white-color;
+      font-weight: 400;
+      font-size: 0, 9rem;
+   }
+
+   .nav__logo h3 {
+      color: $white-color;
+   }
+}
+
+/* medium devices */
+@media screen and (max-width:1024px) {
+   nav {
+      .container {
+         button {
+            display: inline-block;
+            background: transparent;
+            color: $white-color;
+            font-size: 2rem;
+            cursor: pointer;
+
+            &#close__nav-btn {
+               display: none;
+            }
+         }
+
+         ul {
+            position: fixed;
+            right: 5%;
+            top: 5rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0;
+            display: none;
+            perspective: 300px;
+
+            li {
+               width: 100%;
+               opacity: 0;
+               animation: flipNavItem 300ms ease forwards;
+               transform-origin: top;
+               -webkit-animation: flipNavItem 300ms ease forwards;
+
+               &:nth-child(2) {
+                  animation-delay: 100ms;
+               }
+
+               &:nth-child(3) {
+                  animation-delay: 200ms;
+               }
+
+               &:nth-child(4) {
+                  animation-delay: 300ms;
+               }
+
+               &:nth-child(5) {
+                  animation-delay: 400ms;
+               }
+
+
+               @keyframes flipNavItem {
+                  0% {
+                     transform: rotateX(90deg);
+                     -webkit-transform: rotateX(90deg);
+                     -moz-transform: rotateX(90deg);
+                     -ms-transform: rotateX(90deg);
+                     -o-transform: rotateX(90deg);
+                  }
+
+                  100% {
+                     transform: rotateX(0deg);
+                     opacity: 1;
+                     -webkit-transform: rotateX(0deg);
+                     -moz-transform: rotateX(0deg);
+                     -ms-transform: rotateX(0deg);
+                     -o-transform: rotateX(0deg);
+                  }
+               }
+
+               a {
+                  color: $white-color;
+                  height: 100%;
+                  display: block;
+                  padding: 1.5rem 2rem;
+                  border-radius: 0;
+                  background: linear-gradient($primary-color-variant, darken($primary-color-variant, 12%));
+                  -webkit-border-radius: 0;
+                  -moz-border-radius: 0;
+                  -ms-border-radius: 0;
+                  -o-border-radius: 0;
+
+                  &.btn {
+                     background: $secondary-color;
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,6 @@
+.btn{
+   @include button
+}
+.btn-primary{
+   @include button($white-color,$primary-color);
+} 
