@@ -54,14 +54,6 @@ section > p {
   color: #ffffff;
   cursor: pointer;
   transition: all 400ms ease;
-  -webkit-border-radius: 0.4rem;
-  -moz-border-radius: 0.4rem;
-  -ms-border-radius: 0.4rem;
-  -o-border-radius: 0.4rem;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
 }
 .btn:hover {
   background-color: #f84c9b;
@@ -77,14 +69,6 @@ section > p {
   color: #ffffff;
   cursor: pointer;
   transition: all 400ms ease;
-  -webkit-border-radius: 0.4rem;
-  -moz-border-radius: 0.4rem;
-  -ms-border-radius: 0.4rem;
-  -o-border-radius: 0.4rem;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
 }
 .btn-primary:hover {
   background-color: #580fce;
@@ -192,18 +176,10 @@ nav h5 {
   @keyframes flipNavItem {
     0% {
       transform: rotateX(90deg);
-      -webkit-transform: rotateX(90deg);
-      -moz-transform: rotateX(90deg);
-      -ms-transform: rotateX(90deg);
-      -o-transform: rotateX(90deg);
     }
     100% {
       transform: rotateX(0deg);
       opacity: 1;
-      -webkit-transform: rotateX(0deg);
-      -moz-transform: rotateX(0deg);
-      -ms-transform: rotateX(0deg);
-      -o-transform: rotateX(0deg);
     }
   }
   nav .container ul li a {
@@ -213,10 +189,6 @@ nav h5 {
     padding: 1.5rem 2rem;
     border-radius: 0;
     background: linear-gradient(#4cc9f0, #14b8eb);
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
   }
   nav .container ul li a.btn {
     background: #f72585;
@@ -301,14 +273,6 @@ header .container img {
   gap: 1.5rem;
   height: fit-content;
   transition: all 400ms ease;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
 }
 #services .container article h1,
 #services .container article h2,
@@ -370,6 +334,11 @@ header .container img {
 #specialists .container article:hover .specialist__image::before {
   left: 0;
   border-radius: 1rem;
+}
+#specialists .container article:hover .specialist__socials,
+#specialists .container article:hover .specialist__whatsapp {
+  opacity: 1;
+  visibility: visible;
 }
 #specialists .container article .specialist__image {
   height: 20rem;
@@ -433,6 +402,19 @@ header .container img {
 }
 #specialists .container article img {
   width: 100%;
+}
+
+/* medium devices */
+@media screen and (max-width: 1024px) {
+  #specialists .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* small devices */
+@media screen and (max-width: 600px) {
+  #specialists .container {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

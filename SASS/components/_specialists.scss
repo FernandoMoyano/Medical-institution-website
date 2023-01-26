@@ -1,6 +1,5 @@
 #specialists {
 	.container {
-
 		width: 68%;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -22,6 +21,13 @@
 					left: 0;
 					border-radius: 1rem;
 				}
+
+				.specialist__socials,
+				.specialist__whatsapp {
+					opacity: 1;
+					visibility: visible;
+				}
+
 			}
 
 			.specialist__image {
@@ -95,6 +101,24 @@
 			img {
 				width: 100%;
 			}
+		}
+	}
+}
+
+/* medium devices */
+@media screen and (max-width:1024px) {
+	#specialists {
+		.container {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+}
+
+/* small devices */
+@media screen and (max-width:600px) {
+	#specialists {
+		.container {
+			grid-template-columns: 1fr;
 		}
 	}
 }
