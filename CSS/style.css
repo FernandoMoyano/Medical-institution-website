@@ -314,6 +314,52 @@ header .container img {
     margin-bottom: 0.8rem;
   }
 }
+.swiper {
+  width: 82%;
+}
+.swiper .swiper-wrapper {
+  /* brings swiper pagination down */
+  margin-bottom: 4rem;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  background: linear-gradient(135deg, #480ca8, #4cc9f0);
+  color: #ffffff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  cursor: default;
+  font-size: 0.9rem;
+}
+.swiper .swiper-wrapper .swiper-slide h1,
+.swiper .swiper-wrapper .swiper-slide h2,
+.swiper .swiper-wrapper .swiper-slide h3,
+.swiper .swiper-wrapper .swiper-slide h4,
+.swiper .swiper-wrapper .swiper-slide h5 {
+  color: #ffffff;
+}
+.swiper .swiper-wrapper .swiper-slide p {
+  margin-bottom: 1.5rem;
+}
+.swiper .swiper-wrapper .swiper-slide .patient {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.swiper .swiper-wrapper .swiper-slide .patient .avatar {
+  width: 2.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  background-position: center;
+}
+.swiper .swiper-pagination-bulllet {
+  background: #480ca8;
+}
+
+@media screen and (max-width: 600px) {
+  .swiper .swiper-wrapper .swiper-slide {
+    padding: 1.5rem;
+  }
+}
 #specialists .container {
   width: 68%;
   display: grid;
