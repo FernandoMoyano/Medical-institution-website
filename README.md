@@ -1,7 +1,7 @@
 # _Medical-institution-website_
 
 ## View Deployment
-[![N| Solid](https://fernandomoyano.github.io/Medical-institution-website/)]
+[![Go to the site](https://fernandomoyano.github.io/Medical-institution-website/)]
 
 ## Languages
 
