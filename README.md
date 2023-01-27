@@ -19,7 +19,7 @@
  
  ## Style Guide
  
- ``` css
+ ``` CSS
  $primary-color:#480ca8;
 $primary-color-variant:#4cc9f0;
 $secondary-color:#f72585;
@@ -30,4 +30,5 @@ $dark-color:rgba($black-color, 0.6);
 $succes-color:#54eb72;
 $container-lg:82%;
 $container-md:90%;
+
 ```
