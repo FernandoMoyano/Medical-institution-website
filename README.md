@@ -17,6 +17,14 @@
  
  </div>
  
+ ## _Devdepemdencies_
+ ``` javascript
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  ```
+ 
  ### _Style Guide_
  
  ``` CSS
