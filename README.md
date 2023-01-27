@@ -1,6 +1,6 @@
 # _Medical-institution-website_
 
-### _Description_
+## _Description_
 
 >This is a landing page that represents a medical assistance center, where we find a section on services, specialists, testimonials, an appointment section, a contact form and a footer.
 >Within the specialists section we find a series of icons that take us directly to social networks to establish contact. This section presents an attractive effect to interact with the user
@@ -60,10 +60,12 @@
   //to install the necessary dependencies for the project
   ```
  
- ### _Style Guide_
+ ## _Style Guide_
+ 
+ ### _Colors_
  
  ``` CSS
- $primary-color:#480ca8;
+$primary-color:#480ca8;
 $primary-color-variant:#4cc9f0;
 $secondary-color:#f72585;
 $white-color:#ffffff;
