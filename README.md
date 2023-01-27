@@ -10,17 +10,24 @@
 
 ## _Languages_
 
-
 <link rel="stylesheet" href="devicon.min.css">
 
 <div "style=inline_block"><br>
-
- <img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
- <img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+  <img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-   wordmark.svg" />
+ <img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"  />
  <img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" /> 
- <img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
- 
+ <img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-  original.svg" />
+
  </div>
+ 
+ ## _Resources_
+ [Formspree](https://formspree.io/)
+ >The form solution for any developer
+ Use your own frontend code. Submit to our API. We'll handle the rest.
+ 
+ [Swiper](https://swiperjs.com/)
+ >Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior. It   is intended to be used in mobile websites, mobile web apps, and mobile native/hybrid apps.
+ 
  
  ### _Dependencies_
  ``` javascript
