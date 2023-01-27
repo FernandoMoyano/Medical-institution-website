@@ -513,4 +513,18 @@ header .container img {
   appearance: none;
 }
 
+/* medium devices */
+@media screen and (max-width: 1024px) {
+  #appointment .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  #appointment .container .info h2, #appointment .container .info p {
+    text-align: center;
+  }
+  #appointment .container .info article {
+    gap: 1rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

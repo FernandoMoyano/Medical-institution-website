@@ -60,6 +60,24 @@
              }
           }
        }
-
     }
  }
+
+ /* medium devices */
+@media screen and (max-width:1024px) {
+  #appointment{
+   .container{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+    .info{
+      h2, p{
+         text-align: center;
+      }
+      article{
+         gap: 1rem;
+      }
+    }
+   }
+  }
+}
