@@ -1,9 +1,9 @@
 # _Medical-institution-website_
 
-## View Deployment
+## _View Deployment_
 [Go to the site](https://fernandomoyano.github.io/Medical-institution-website/)
 
-## Languages
+## _Languages_
 
 
 <link rel="stylesheet" href="devicon.min.css">
@@ -17,7 +17,7 @@
  
  </div>
  
- ## Style Guide
+ ## _Style Guide_
  
  ``` CSS
  $primary-color:#480ca8;
