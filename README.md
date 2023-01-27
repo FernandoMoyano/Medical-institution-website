@@ -17,7 +17,7 @@
  
  </div>
  
- ## _Style Guide_
+ ### _Style Guide_
  
  ``` CSS
  $primary-color:#480ca8;
@@ -31,4 +31,8 @@ $succes-color:#54eb72;
 $container-lg:82%;
 $container-md:90%;
 
+```
+
+``` html
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 ```
