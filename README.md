@@ -3,7 +3,7 @@
 ### _Description_
 
 >This is a landing page that represents a medical assistance center, where we find a section on services, specialists, testimonials, an appointment section, a contact form and a footer.
->Within the specialists section we find a series of icons that take us directly to social networks to establish contact. >This section presents an attractive effect to interact with the user
+>Within the specialists section we find a series of icons that take us directly to social networks to establish contact. This section presents an attractive effect to interact with the user
 
 ## _View Deployment_
 [Go to the site](https://fernandomoyano.github.io/Medical-institution-website/)
