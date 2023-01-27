@@ -24,6 +24,15 @@
     "nodemon": "^2.0.20"
   },
   ```
+  
+  ## _Scripts_
+  ```
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch SASS/style.scss  CSS/style.css"
+  }
+  ```
  
  ### _Style Guide_
  
