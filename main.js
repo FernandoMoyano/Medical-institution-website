@@ -16,6 +16,16 @@ const closeNav = () => {
 
 closeNavBtn.addEventListener("click", closeNav);
 
+//close nav menu when menu a menu item is clicked
+
+if (window.innerWidth < 1024) {
+	document.querySelectorAll("#nav__items li a").forEach((navItem) => {
+		navItem.addEventListener("click", () => {
+			closeNav();
+		});
+	});
+}
+
 /* TESTIMONIALS SECTION (swiper js) */
 var swiper = new Swiper(".mySwiper", {
 	slidesPerView: 1,
@@ -28,11 +38,11 @@ var swiper = new Swiper(".mySwiper", {
 	breakpoints: {
 		//when window width is>=600px
 		600: {
-			slidesPerView: 2
+			slidesPerView: 2,
 		},
 		//when window width is>=600px
 		1024: {
-			slidesPerView: 3
+			slidesPerView: 3,
 		},
 	},
 });
