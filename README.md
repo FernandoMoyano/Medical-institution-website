@@ -33,6 +33,7 @@ $container-md:90%;
 
 ```
 
+### _Font family_
 ``` html
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 ```
