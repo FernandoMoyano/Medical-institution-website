@@ -466,6 +466,8 @@ header .container img {
   display: grid;
   grid-template-columns: 47% 47%;
   gap: 6%;
+  margin: auto;
+  align-items: start;
 }
 #appointment .container .info p {
   margin: 0.5rem 0 2rem;
@@ -487,6 +489,28 @@ header .container img {
   display: flex;
   height: fit-content;
   font-size: 1.2rem;
+}
+#appointment .container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+#appointment .container form .form__group label {
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+  display: inline-block;
+  font-weight: 600;
+}
+#appointment .container form .form__group input,
+#appointment .container form .form__group textarea,
+#appointment .container form .form__group select {
+  background: #ffffff;
+  padding: 0.85rem 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 0.4rem;
+  resize: none;
+  appearance: none;
 }
 
 /*# sourceMappingURL=style.css.map */
