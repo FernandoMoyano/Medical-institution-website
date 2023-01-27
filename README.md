@@ -17,14 +17,14 @@
  
  </div>
  
- ## _Dependencies_
+ ### _Dependencies_
  ``` javascript
    "dependencies": {
     "sass": "^1.57.1"
   },
  ```
  
- ## _Devdependencies_
+ ### _Devdependencies_
  ``` javascript
   "devDependencies": {
     "node-sass": "^8.0.0",
@@ -32,7 +32,7 @@
   },
   ```
   
-  ## _Scripts_
+  ### _Scripts_
   ``` javascript
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
