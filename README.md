@@ -45,6 +45,12 @@
     "sass:watch": "sass --watch SASS/style.scss  CSS/style.css"
   }
   ```
+  
+  ### _Commands_
+  ``` javascript
+  npm init
+  //to install the necessary dependencies for the project
+  ```
  
  ### _Style Guide_
  
