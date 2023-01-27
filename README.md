@@ -17,7 +17,7 @@
  
  </div>
  
- ## _Devdepemdencies_
+ ## _Devdependencies_
  ``` javascript
   "devDependencies": {
     "node-sass": "^8.0.0",
